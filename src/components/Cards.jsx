@@ -7,7 +7,7 @@ import { FiThumbsUp } from "react-icons/fi";
 export default function Cards({result}) {
   return (
     <div className='group sm:mt-0 w-min sm:hover:shadow-slate-400 sm:shadow-md rounded-lg sm:border sm:border-slate-400 '>
-        <Link href={`/movie/${id}`}>
+        <Link href={`/movie/${result.id}`}>
             <Image
             src={`https://image.tmbd.org/t/p/original/${result.backdrop_path || result.poster_path}`}
             width={500}

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { AiFillHome } from "react-icons/ai";
+import { AiFillHome, AiOutlineUser } from "react-icons/ai";
 import { BsFillInfoCircleFill } from "react-icons/bs";
 import React from 'react'
 import MenuItem from './MenuItem'
@@ -20,6 +20,7 @@ export default function Header() {
                     <span className='text-2xl font-bold bg-amber-600 px-1 rounded-lg '>IMDb</span>
                     <span className='text-xl hidden sm:inline'>Clone</span>
                 </Link>
+                <AiOutlineUser className='w-5 h-5 hover:text-amber-400' />
             </div>
 
         </div>
