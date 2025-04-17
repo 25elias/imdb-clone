@@ -6,7 +6,7 @@ import Cards from './Cards'
 
 export default function Results({results}) {
   return (
-    <div className='max-w-6xl mx-auto min-h-full px-8'>
+    <div className='max-w-6xl mx-auto min-h-full px-8 grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
         {/* <Cards /> */}
                 
         {            
